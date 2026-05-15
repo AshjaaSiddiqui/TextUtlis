@@ -5,11 +5,14 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  color: wheat;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    color: aqua;
+    /* color: red ; */
   }
 }
 
@@ -25,9 +28,15 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: cyan;
+  transform: scale3d(1.5,2,2)
+   rotateX(30deg);
 }
-
+.Button
+{
+  background-color: cornflowerblue;
+  text-decoration-color: aliceblue;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
